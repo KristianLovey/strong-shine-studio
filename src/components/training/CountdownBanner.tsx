@@ -23,7 +23,7 @@ export function CountdownBanner({ meet }: { meet: UpcomingMeet }) {
 
   return (
     <div
-      className="animate-fade-up"
+      className="flex flex-wrap items-center justify-between gap-4 animate-fade-up"
       style={{
         background: "rgba(245,158,11,0.04)",
         border: "1px solid rgba(245,158,11,0.15)",
@@ -33,7 +33,6 @@ export function CountdownBanner({ meet }: { meet: UpcomingMeet }) {
         backdropFilter: "blur(20px)",
         boxShadow: "0 8px 30px rgba(0,0,0,0.4), 0 0 30px rgba(245,158,11,0.08)",
       }}
-      className="flex flex-wrap items-center justify-between gap-4 animate-fade-up"
     >
       <div>
         <div style={overline}>SLJEDEĆE NATJECANJE</div>
